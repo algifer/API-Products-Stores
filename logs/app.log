@@ -1,0 +1,50 @@
+
+[2021-08-25 23:35:51,272] INFO in app: App Initializing.
+[2021-08-25 23:35:51,301] INFO in _internal:  * Running on http://localhost.localhost:5000/ (Press CTRL+C to quit)
+[2021-08-25 23:35:51,302] INFO in _internal:  * Restarting with stat
+[2021-08-25 23:35:51,731] INFO in app: App Initializing.
+[2021-08-25 23:35:51,759] WARNING in _internal:  * Debugger is active!
+[2021-08-25 23:35:51,759] INFO in _internal:  * Debugger PIN: 807-832-402
+[2021-08-25 23:37:39,587] INFO in app: App Initializing.
+[2021-08-25 23:37:47,740] INFO in app: App Initializing.
+[2021-08-25 23:37:53,738] INFO in app: App Initializing.
+[2021-08-25 23:38:02,894] INFO in app: App Initializing.
+[2021-08-25 23:38:08,412] INFO in app: App Initializing.
+[2021-08-25 23:38:08,443] INFO in _internal:  * Running on http://localhost.localhost:5000/ (Press CTRL+C to quit)
+[2021-08-25 23:38:08,444] INFO in _internal:  * Restarting with stat
+[2021-08-25 23:38:08,928] INFO in app: App Initializing.
+[2021-08-25 23:38:08,957] WARNING in _internal:  * Debugger is active!
+[2021-08-25 23:38:08,957] INFO in _internal:  * Debugger PIN: 807-832-402
+[2021-08-25 23:39:06,328] INFO in app: Inside flask function: Thread-2
+[2021-08-25 23:39:10,391] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:39:10] "POST /product HTTP/1.1" 200 -
+[2021-08-25 23:39:34,425] INFO in app: Inside flask function: Thread-3
+[2021-08-25 23:39:38,431] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:39:38] "POST /product HTTP/1.1" 200 -
+[2021-08-25 23:39:58,020] INFO in app: Inside flask function: Thread-4
+[2021-08-25 23:39:58,025] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:39:58] "GET /product HTTP/1.1" 200 -
+[2021-08-25 23:40:38,355] INFO in app: Inside flask function: Thread-5
+[2021-08-25 23:40:38,358] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:40:38] "GET /store/info HTTP/1.1" 200 -
+[2021-08-25 23:40:44,255] INFO in app: Inside flask function: Thread-6
+[2021-08-25 23:40:44,262] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:40:44] "GET /product HTTP/1.1" 200 -
+[2021-08-25 23:41:05,906] INFO in app: Inside flask function: Thread-7
+[2021-08-25 23:41:09,913] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:41:09] "POST /store HTTP/1.1" 200 -
+[2021-08-25 23:41:22,893] INFO in app: Inside flask function: Thread-8
+[2021-08-25 23:41:26,959] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:41:26] "POST /store HTTP/1.1" 200 -
+[2021-08-25 23:41:36,547] INFO in app: Inside flask function: Thread-9
+[2021-08-25 23:41:40,555] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:41:40] "GET /store HTTP/1.1" 200 -
+[2021-08-25 23:43:20,251] INFO in app: Inside flask function: Thread-10
+[2021-08-25 23:43:24,294] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:43:24] "POST /store HTTP/1.1" 200 -
+[2021-08-25 23:43:56,320] INFO in app: Inside flask function: Thread-11
+[2021-08-25 23:44:00,344] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:44:00] "POST /store HTTP/1.1" 200 -
+[2021-08-25 23:44:03,633] INFO in app: Inside flask function: Thread-12
+[2021-08-25 23:44:07,646] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:44:07] "POST /store HTTP/1.1" 200 -
+[2021-08-25 23:46:12,905] INFO in _internal:  * Detected change in '/home/emdep/Escritorio/Developing/Products_RestAPI/app/app.py', reloading
+[2021-08-25 23:46:13,013] INFO in _internal:  * Restarting with stat
+[2021-08-25 23:46:13,478] INFO in app: App Initializing.
+[2021-08-25 23:46:13,500] WARNING in _internal:  * Debugger is active!
+[2021-08-25 23:46:13,501] INFO in _internal:  * Debugger PIN: 807-832-402
+[2021-08-25 23:46:25,329] INFO in app: Inside flask function: Thread-2
+[2021-08-25 23:46:29,388] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:46:29] "POST /store HTTP/1.1" 200 -
+[2021-08-25 23:47:01,231] INFO in app: Inside flask function: Thread-3
+[2021-08-25 23:47:01,253] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:47:01] "GET /store/info HTTP/1.1" 200 -
+[2021-08-25 23:47:56,791] INFO in app: Inside flask function: Thread-4
+[2021-08-25 23:47:56,798] INFO in _internal: 127.0.0.1 - - [25/Aug/2021 23:47:56] "GET /product HTTP/1.1" 200 -

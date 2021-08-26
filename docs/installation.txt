@@ -1,0 +1,69 @@
+Installation in Ubuntu 18.04
+
+$ python3 -m venv env
+$ source env/bin/activate
+$ sudo apt-get update -y
+$ sudo apt-get install -y python3-psycopg2
+$ pip3 install psycopg2==2.7.4
+
+or install psycopg2-binary
+sudo apt install libpq-dev
+pip install psycopg2
+
+$ pip3 install flask
+$ sudo apt install postgresql postgresql-contrib
+
+# Install Co
+$ pip3 install flask-sqlalchemy
+$ pip3 install -U Flask-SQLAlchemy
+$ pip3 install Flask-Migrate
+
+pip3 install Flask-Script
+
+pip3 freeze > requirements.txt
+
+------------------------------------------------------------------
+Install Requirements
+Tools used in this part:
+
+PostgreSQL (11.6) - a database
+Psycopg2 (2.8.4) - a Python adapter for Postgres
+Flask-SQLAlchemy (2.4.1) - Flask extension that provides SQLAlchemy support
+Flask-Migrate (2.5.2) - extension that supports SQLAlchemy database migrations via Alembic
+
+-----------------------------------------------------------------
+# Connect to database
+$ sudo -u postgres psql
+
+listar base de datos
+# \l
+
+Cambiar contraseña de usuario en postgres
+alter user postgres with password '#12345';
+\q
+
+Connexión a base de datos por interfaz grafica postgres
+sudo apt-get install pgadmin3
+
+
+#### Connect Postgres with Flask: https://postgresapp.com/
+Flask
+When using the Flask-SQLAlchemy extension you can add to your application code:
+
+
+from flask import Flask
+from flask.sqlalchemy import SQLAlchemy
+app = Flask(__name__)
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://localhost/[YOUR_DATABASE_NAME]'
+db = SQLAlchemy(app)
+		
+SQLAlchemy
+
+from sqlalchemy import create_engine
+engine = create_engine('postgresql://localhost/[YOUR_DATABASE_NAME]')
+
+Instead of using with Flask-Script, you can simply use the below commands :
+
+$ python3 manage.py db init
+$ python3 manage.py db migrate
+$ python3 manage.py db upgrade
